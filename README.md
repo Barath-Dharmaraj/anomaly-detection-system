@@ -116,19 +116,7 @@ Visit http://localhost:5173
 
 ---
 
-### Step 4 — Create Account + Make Admin
 
-1. Go to http://localhost:5173/register and create an account
-2. Then run this to make yourself admin:
-
-```bash
-cd backend
-python make_admin.py
-```
-
-3. Log out and log back in — the Admin page will now work
-
----
 
 ## API Endpoints
 
@@ -156,23 +144,4 @@ python make_admin.py
 
 ---
 
-## Deployment
 
-### Backend → Render (free)
-1. Push code to GitHub
-2. New Web Service on render.com
-3. Build: `pip install -r backend/requirements.txt`
-4. Start: `cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT`
-5. Add env vars: `SECRET_KEY`, `DATABASE_URL`, `CORS_ORIGINS`
-
-### Frontend → Vercel (free)
-1. Import frontend folder on vercel.com
-2. Framework: Vite
-3. Add env vars: `VITE_API_URL=https://your-backend.onrender.com`
-
-### Full Docker Stack
-```bash
-docker compose up --build -d
-# Backend → localhost:8000
-# Frontend → localhost:3000
-```
