@@ -1,0 +1,33 @@
+{
+  "feature_cols": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "merchant_cat",
+    "distance_km",
+    "trans_per_day",
+    "balance_ratio",
+    "is_international",
+    "velocity_1h",
+    "log_amount",
+    "is_night",
+    "is_weekend",
+    "amount_x_vel"
+  ],
+  "base_feature_cols": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "merchant_cat",
+    "distance_km",
+    "trans_per_day",
+    "balance_ratio",
+    "is_international",
+    "velocity_1h"
+  ],
+  "score_min": -0.18289450498381898,
+  "score_max": 0.19788897522859789,
+  "model_type": "IsolationForest",
+  "n_estimators": 200,
+  "contamination": 0.02
+}

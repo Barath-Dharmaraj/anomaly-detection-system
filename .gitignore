@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+.env
+.env.local
+.env.production
+
+# ML models (large files - regenerate with train_model.py)
+# Comment out below if you WANT to commit the model
+model/saved/isolation_forest.pkl
+model/saved/scaler.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
