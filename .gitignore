@@ -19,8 +19,8 @@ dist/
 
 # ML models (large files - regenerate with train_model.py)
 # Comment out below if you WANT to commit the model
-model/saved/isolation_forest.pkl
-model/saved/scaler.pkl
+#model/saved/isolation_forest.pkl
+#model/saved/scaler.pkl
 
 # OS
 .DS_Store
